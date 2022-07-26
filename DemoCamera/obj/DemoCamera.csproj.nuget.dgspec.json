@@ -1,25 +1,21 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\cachavez\\source\\repos\\DemoCamera\\DemoCamera\\DemoCamera.csproj": {}
+    "C:\\Users\\cacha\\xam-android-projects\\DemoCamera2\\DemoCamera\\DemoCamera.csproj": {}
   },
   "projects": {
-    "C:\\Users\\cachavez\\source\\repos\\DemoCamera\\DemoCamera\\DemoCamera.csproj": {
+    "C:\\Users\\cacha\\xam-android-projects\\DemoCamera2\\DemoCamera\\DemoCamera.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\cachavez\\source\\repos\\DemoCamera\\DemoCamera\\DemoCamera.csproj",
+        "projectUniqueName": "C:\\Users\\cacha\\xam-android-projects\\DemoCamera2\\DemoCamera\\DemoCamera.csproj",
         "projectName": "DemoCamera",
-        "projectPath": "C:\\Users\\cachavez\\source\\repos\\DemoCamera\\DemoCamera\\DemoCamera.csproj",
-        "packagesPath": "C:\\Users\\cachavez\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\cachavez\\source\\repos\\DemoCamera\\DemoCamera\\obj\\",
+        "projectPath": "C:\\Users\\cacha\\xam-android-projects\\DemoCamera2\\DemoCamera\\DemoCamera.csproj",
+        "packagesPath": "C:\\Users\\cacha\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\cacha\\xam-android-projects\\DemoCamera2\\DemoCamera\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
-        "fallbackFolders": [
-          "e:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\cachavez\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\cacha\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

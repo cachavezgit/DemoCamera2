@@ -37,7 +37,8 @@ namespace DemoCamera
                     PhotoSize = Plugin.Media.Abstractions.PhotoSize.Medium,
                     CompressionQuality = 50,
                     Name = string.Format("Imagen {0}.jpg", System.Guid.NewGuid()),
-                    Directory = "DemoCamera"
+                    Directory = "DemoCamera",
+                    SaveToAlbum = true
                 });
 
             if (file == null)
@@ -45,6 +46,7 @@ namespace DemoCamera
 
             // se leen todos los bytes del archivo de la foto que se acaba de tomar.
             byte[] photoBytesArray = System.IO.File.ReadAllBytes(file.Path);
+            // Se genera el bitmap a partir de los bytes de la foto
             Android.Graphics.Bitmap bitmap = 
                 Android.Graphics.BitmapFactory.DecodeByteArray(photoBytesArray,0,photoBytesArray.Length);
             this.imgPhoto.SetImageBitmap(bitmap);
